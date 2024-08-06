@@ -1,1 +1,127 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 
+header {
+    background-color: #FFD859;
+}
+
+.navegacao {
+    transition: 0.5s;
+    text-align: center;
+}
+
+.navegacao:hover {
+    text-align: center;
+    background-color: #FFD859;
+    padding: 1.5%;
+    .links:link {
+        transition: 0.3s;
+        opacity: 1;
+    }
+    .links:active {
+        transition: 0.3s;
+        opacity: 1;
+    }
+    .links:visited {
+        transition: 0.3s;
+        opacity: 1;
+    }
+    .espacamento {
+        transition: 0.3s;
+        opacity: 1;
+    }
+    /*body {
+       filter: brightness(50%); 
+    }*/
+    
+    /* Imagem de fundo não muda */
+}
+
+.links:link {
+    color: black;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: sans-serif;
+    opacity: 0;
+}
+
+.links:visited {
+    color: black;
+    text-decoration: none;
+    font-size: 150%;
+    font-family: sans-serif;
+    opacity: 0;
+}
+
+.links:hover {
+    color: black;
+    font-size: 150%;
+    text-decoration: underline;
+    font-family: sans-serif;
+    opacity: 1;
+}
+
+.links:active {
+    color: black;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+    opacity: 0;
+}
+
+.espacamento {
+    display: inline;
+    color: black;
+    font-size: 150%;
+    font-family: sans-serif;
+    opacity: 0;
+}
+
+h1 {
+    color: #FFD859;
+    text-align: center;
+    font-family:'Gill Sans';
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+    font-size: 50px;
+}
+
+.p-esquerda {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 68%;
+    font-size: 30px;
+    font-family: frangsong;
+    float: left;
+    text-align: justify;
+}
+
+.p-direita {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 68%;
+    font-size: 30px;
+    font-family: frangsong;
+    
+    text-align: justify;
+}
+
+.img1 {
+    float: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 70px;
+    border-radius: 25%;
+    border-color: #FFD859;
+}
+
+.legenda {
+    font-size: 23px;
+    float: right;
+    position: absolute;
+}
