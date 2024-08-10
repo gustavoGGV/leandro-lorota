@@ -88,6 +88,21 @@ header {
     opacity: 0;
 }
 
+#instagram {
+    float: inline-end;
+    margin-top: 100px;
+}
+
+.p_instagram {
+    float: inline-end;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 200px;
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
 .botao_sobre {
     margin-top: 40%;
     margin-left: 837px;
@@ -122,10 +137,124 @@ header {
     z-index: -1;
 }
 
-.titulo_agenda {
+.titulo {
     color: white;
-    margin-left: 9%;
+    margin-left: 4%;
     margin-top: 1%;
     font-size: 70px;
     font-family:'Franklin Gothic Medium';
+}
+
+.evento {
+    margin-left: 4%;
+    margin-top: 3%;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #FFD859;
+}
+
+i {
+    color: white;
+    margin-left: 4%;
+}
+
+.local_data {
+    display: inline;
+    margin-left: 16px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* Contato */
+
+.contato {
+    background-image: url(images/leandro-lorota-velho.png);
+}
+
+form {
+    margin-top: 3%;
+}
+
+.nome {
+    border-color: white;
+    background-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    margin-left: 4%;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.nome:focus {
+    outline-color: #FFD859;
+    transition: 0.5s;
+}
+
+label {
+    color: #FFD859;
+    margin-left: 4%;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.assunto {
+    border-color: white;
+    background-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    margin-left: 4%;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.assunto:focus {
+    outline-color: #FFD859;
+    transition: 0.5s;
+}
+
+.mensagem {
+    border-color: white;
+    background-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 1000px;
+    height: 200px;
+    margin-left: 4%;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.mensagem:focus {
+    outline-color: #FFD859;
+    transition: 0.5s;
+}
+
+.enviar {
+    margin-left: 4%;
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 250px;
+    height: 60px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium';
+    border-radius: 40px;
+    border-width: 1px;
+    transition: 0.5s;
+}
+
+.enviar:hover {
+    transition: 0.5s;
+    background-color: #FFD859;
+    border: none;
+    color: black;
+    cursor: pointer;
 }
