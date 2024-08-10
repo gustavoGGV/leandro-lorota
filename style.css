@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* Página Inicial */
+
+.pagina_inicial {
+    background-image: url(images/imagem-fundo2.png);
+}
+
 header {
     background-color: #FFD859;
 }
@@ -11,12 +17,14 @@ header {
 .navegacao {
     transition: 0.5s;
     text-align: center;
+    padding: 1.5%;
+    opacity: 0;
 }
 
 .navegacao:hover {
     text-align: center;
     background-color: #FFD859;
-    padding: 1.5%;
+    opacity: 1;
     .links:link {
         transition: 0.3s;
         opacity: 1;
@@ -44,7 +52,7 @@ header {
     color: black;
     text-decoration: none;
     font-size: 150%;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium';
     opacity: 0;
 }
 
@@ -52,7 +60,7 @@ header {
     color: black;
     text-decoration: none;
     font-size: 150%;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium';
     opacity: 0;
 }
 
@@ -60,7 +68,7 @@ header {
     color: black;
     font-size: 150%;
     text-decoration: underline;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium';
     opacity: 1;
 }
 
@@ -68,7 +76,7 @@ header {
     color: black;
     font-size: 150%;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium';
     opacity: 0;
 }
 
@@ -76,68 +84,48 @@ header {
     display: inline;
     color: black;
     font-size: 150%;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium';
     opacity: 0;
 }
 
-h1 {
-    color: #FFD859;
-    text-align: center;
-    font-family:'Gill Sans';
-    margin-top: 3.5%;
-    margin-bottom: 3.5%;
-    font-size: 50px;
+.botao_sobre {
+    margin-top: 40%;
+    margin-left: 837px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    width: 250px;
+    height: 60px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium';
+    border-radius: 40px;
+    border-width: 1px;
+    transition: 0.5s;
 }
 
-.p-esquerda {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 70px;
-    width: 68%;
-    font-size: 30px;
-    font-family: frangsong;
-    float: left;
-    text-align: justify;
+.botao_sobre:hover {
+    transition: 0.5s;
+    background-color: #FFD859;
+    border: none;
+    color: black;
+    cursor: pointer;
 }
 
-.p-direita {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-right: 70px;
-    width: 68%;
-    font-size: 30px;
-    font-family: frangsong;
-    float: right;
-    text-align: justify;
+/* Agenda */
+
+.video_fundo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
 }
 
-.img1 {
-    float: right;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-right: 70px;
-    border-radius: 25%;
-}
-
-.img2 {
-    float: left;
-    width: 22%;
-    margin-bottom: 10px;
-    margin-top: 35px;
-    margin-left: 70px;
-    border-radius: 25%;
-}
-
-.legenda1 {
-    font-size: 23px;
-    float: right;
-    margin-right: 210px;
-    margin-top: -30px
-}
-
-.legenda2 {
-    font-size: 23px;
-    float: left;
-    height: -20%;
-    margin-top: 80px;
+.titulo_agenda {
+    color: white;
+    margin-left: 9%;
+    margin-top: 1%;
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium';
 }
