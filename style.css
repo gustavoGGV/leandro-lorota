@@ -103,6 +103,25 @@ header {
     font-family: sans-serif;
 }
 
+.link_instagram {
+    text-decoration: none;
+}
+
+.link_instagram:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.link_instagram:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.link_instagram:active {
+    color: white;
+    text-decoration: none;
+}
+
 .botao_sobre {
     margin-top: 40%;
     margin-left: 837px;
