@@ -25,7 +25,8 @@ header {
     text-align: center;
     background-color: #FFD859;
     opacity: 1;
-    .links:link {
+
+/*  .links:link {
         transition: 0.3s;
         opacity: 1;
     }
@@ -53,7 +54,7 @@ header {
     text-decoration: none;
     font-size: 150%;
     font-family:'Franklin Gothic Medium';
-    opacity: 0;
+    opacity: 1;
 }
 
 .links:visited {
@@ -61,7 +62,7 @@ header {
     text-decoration: none;
     font-size: 150%;
     font-family:'Franklin Gothic Medium';
-    opacity: 0;
+    opacity: 1;
 }
 
 .links:hover {
@@ -77,7 +78,7 @@ header {
     font-size: 150%;
     text-decoration: none;
     font-family:'Franklin Gothic Medium';
-    opacity: 0;
+    opacity: 1;
 }
 
 .espacamento {
@@ -85,16 +86,16 @@ header {
     color: black;
     font-size: 150%;
     font-family:'Franklin Gothic Medium';
-    opacity: 0;
+    opacity: 1;
 }
 
 #instagram {
-    float: inline-end;
+    float: right;
     margin-top: 100px;
 }
 
 .p_instagram {
-    float: inline-end;
+    float: right;
     margin-top: 100px;
     margin-left: 10px;
     margin-right: 200px;
@@ -104,6 +105,7 @@ header {
 }
 
 .link_instagram {
+    color: white;
     text-decoration: none;
 }
 
