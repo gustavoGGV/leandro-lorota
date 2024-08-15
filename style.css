@@ -174,7 +174,7 @@ header {
     margin-left: 4%;
     margin-top: 3%;
     font-size: 35px;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium';
     color: #FFD859;
 }
 
@@ -187,8 +187,90 @@ i {
     display: inline;
     margin-left: 16px;
     font-size: 25px;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium';
     color: white;
+}
+
+/* Discografia */
+
+.discografia {
+    background-image: url(images/imagem-fundo4.png);
+}
+
+.imagem_album {
+    margin-left: 100px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.legenda_album {
+    color: #FFD859;
+    margin-top: 3%;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#legenda_especial {
+    font-size: 30px;
+}
+
+#imagem_especial {
+    margin-top: 15px;
+}
+
+#legenda_especial2 {
+    font-size: 30px;
+}
+
+#imagem_especial2 {
+    margin-top: 15px;
+}
+
+.album1 {
+    width: 30%;
+    height: 300px;
+    margin-left: 2%;
+}
+
+.album2 {
+    float: right;
+    width: 50%;
+    height: 300px;
+    margin-top: -325px;
+    margin-right: 310px;
+}
+
+.album3 {
+    float: right;
+    width: 30%;
+    height: 300px;
+    margin-top: -310px;
+    margin-right: 4%;
+}
+
+.album4 {
+    width: 30%;
+    height: 300px;
+    margin-left: 2%;
+    margin-top: 250px;
+}
+
+.album5 {
+    float: right;
+    width: 50%;
+    height: 300px;
+    margin-top: -335px;
+    margin-right: 310px;
+}
+
+.album6 {
+    float: right;
+    width: 30%;
+    height: 300px;
+    margin-top: -320px;
+    margin-right: 4%;
+    margin-bottom: 200px;
 }
 
 /* Contato */
@@ -219,13 +301,45 @@ form {
     transition: 0.5s;
 }
 
-label {
+.label_maior {
     color: #FFD859;
     margin-left: 4%;
     font-size: 40px;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium';
 }
 
+.label_menor {
+    color: white;
+    margin-left: 4%;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium';
+}
+
+.checkbox {
+    margin-left: 8px;
+    height: 20px;
+    width: 20px;
+}
+
+.outro {
+    border-color: white;
+    background-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 400px;
+    height: 40px;
+    margin-left: 8px;
+    color: white;
+    font-size: 25px;
+    font-family:sans-serif;
+}
+
+.outro:focus {
+    outline-color: #FFD859;
+    transition: 0.5s;
+}
+
+/* Era caixa de texto apenas
 .assunto {
     border-color: white;
     background-color: black;
@@ -243,6 +357,7 @@ label {
     outline-color: #FFD859;
     transition: 0.5s;
 }
+*/
 
 .mensagem {
     border-color: white;
@@ -290,10 +405,6 @@ label {
     background-color: black;
 }
 
-#sobre {
-    font-family: 'Times New Roman';
-}
-
 .img1_sobre {
     float: right;
     width: 30%;
@@ -311,4 +422,5 @@ label {
     float: left;
     font-size: 30px;
     width: 60%;
+    font-family: 'Franklin Gothic Medium';
 }
