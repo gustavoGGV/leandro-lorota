@@ -229,7 +229,7 @@ i {
 
 .imagem_galeria2 {
     width: 22%;
-    border-color: #FFD859;
+    border-color: white;
     border-radius: 100px;
     border-style: solid;
     border-width: 10px;
@@ -247,7 +247,7 @@ i {
 
 .imagem_galeria4 {
     width: 22%;
-    border-color: #FFD859;
+    border-color: white;
     border-radius: 100px;
     border-style: solid;
     border-width: 10px;
@@ -288,7 +288,7 @@ i {
 .legenda_galeria2 {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium';
-    color: white;
+    color: #FFD859;
     float: right;
     margin-right: 1000px;
     margin-top: -55px;
@@ -306,7 +306,7 @@ i {
 .legenda_galeria4 {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium';
-    color: white;
+    color: #FFD859;
     float: right;
     margin-right: 80px;
     margin-top: -55px;
